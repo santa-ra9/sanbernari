@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    justify-content:start; /* Pushes logo and nav to opposite sides */
+    align-items: center;            /* Vertically centers items */
+    padding: 10px 20px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;                      /* Modern way to space items without margins */
+    margin-left: 20px;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;         /* Removes the default underline */
+    color: inherit;                /* Takes the color from the parent */
+    font-size: 18px;               /* Set your preferred size here */
+}
